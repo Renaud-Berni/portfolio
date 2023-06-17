@@ -13,12 +13,13 @@
     justify-content: center;
     align-items: center;
     font-family: 'Poppins', sans-serif;
+    overflow: hidden;
 }
 
 .cardProfil {
     width: 90%;
-    max-width: 27.5em;
-    padding: 3.12em 2.8em;
+    max-width: 35em;
+    padding: 2em;
     text-align: center;
     border: 0.5px solid rgba(255, 255, 255, 0.3);
     background: rgba(255, 255, 255, 0.2);
@@ -26,6 +27,7 @@
     border-radius: 1em;
     box-shadow: 0 0.4em 2em rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(0.45em);
+
 
 
 }
@@ -55,8 +57,8 @@
 }
 
 .logoReseaux img {
-    width: 2.5em;
-    height: 2.5em;
+    width: 3em;
+    height: 3em;
     border-radius: 50%;
     margin: 1em 0.5em;
     background-color: rgba(0, 0, 0, 0);
@@ -90,7 +92,7 @@
 
 /*(DEBUT) NAVIGATION DE LA PAGE */
 
-.header{
+.header {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -98,48 +100,53 @@
     height: 100vh;
 }
 
-.menu{
-}
+.menu {}
 
-.menuDeroulant{
+.menuDeroulant {
     display: block;
-    background-color: #81215193;
+    background-color: #81215100;
     padding: 1em;
     margin-bottom: 0.5em;
     width: 10em;
-    border:1px solid #812151;
+    border: 1px solid #812151;
     border-radius: 2rem;
     text-align: center;
     text-decoration: none;
     color: aliceblue;
     font-size: 1.3em;
     font-weight: 600;
-     
-}
-.navPage {
-    position:fixed;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 100%;
-    margin-top: 20em;
-  }
 
-.menu .menuDeroulant:hover{
+}
+.menu .menuDeroulant:hover {
     transition: 0.5s;
-    background-color: rgba(16, 17, 17, 0);
+    background-color: #812151;
     color: aliceblue;
 }
 
-header li:hover .subMenu{
+.subMenu li:hover a{
+    transition: 0.5s;
+    background-color: #812151;
+}
+
+.navPage {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    margin-top: 20em;
+}
+
+
+
+header li:hover .subMenu {
     display: block;
     margin: 1em;
 }
 
-header li:hover .subMenu a{
+header li:hover .subMenu a {
     display: flex;
     justify-content: center;
-    border:1px solid #812151;
+    border: 1px solid #812151;
     border-radius: 2rem;
     text-decoration: none;
     color: aliceblue;
@@ -147,7 +154,12 @@ header li:hover .subMenu a{
     font-weight: 600;
     text-align: center;
 }
-.subMenu{
+
+.subMenu li:hover .menuDeroulant li{
+    background: none;
+}
+
+.subMenu {
     display: none;
     width: 12em;
     line-height: 3rem;
