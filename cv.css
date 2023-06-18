@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image:url(images/wallpaperflare.com_wallpaper.jpg)
+}
+
+header{
+    display: block;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container>embed {
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.header-content {
+    background-color: rgba(0, 0, 0, 0.836);
+    color: aliceblue;
+    margin-bottom: 5em;
+    width: 100%;
+}
+ 
+.header-content h2{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+    
+}
+
+/*(DEBUT) NAVIGATION DE LA PAGE */
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    height: 100vh;
+}
+
+.menu {}
+
+.menuDeroulant {
+    display: block;
+    background-color: #81215100;
+    padding: 1em;
+    margin-bottom: 0.5em;
+    width: 10em;
+    border: 1px solid #812151;
+    border-radius: 2rem;
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1.3em;
+    font-weight: 600;
+
+}
+.menu .menuDeroulant:hover {
+    transition: 0.5s;
+    background-color: #812151;
+    color: aliceblue;
+}
+
+.subMenu li:hover a{
+    transition: 0.5s;
+    background-color: #812151;
+}
+
+.navPage {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    margin-top: 20em;
+}
+
+
+
+header li:hover .subMenu {
+    display: block;
+    margin: 1em;
+}
+
+header li:hover .subMenu a {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #812151;
+    border-radius: 2rem;
+    text-decoration: none;
+    color: aliceblue;
+    margin-bottom: 1em;
+    font-weight: 600;
+    text-align: center;
+}
+
+.subMenu li:hover .menuDeroulant li{
+    background: none;
+}
+
+.subMenu {
+    display: none;
+    width: 12em;
+    line-height: 3rem;
+}
+
+
+/*(FIN) NAVIGATION DE LA PAGE */
