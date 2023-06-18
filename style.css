@@ -117,13 +117,14 @@
     font-weight: 600;
 
 }
+
 .menu .menuDeroulant:hover {
     transition: 0.5s;
     background-color: #812151;
     color: aliceblue;
 }
 
-.subMenu li:hover a{
+.subMenu li:hover a {
     transition: 0.5s;
     background-color: #812151;
 }
@@ -155,7 +156,7 @@ header li:hover .subMenu a {
     text-align: center;
 }
 
-.subMenu li:hover .menuDeroulant li{
+.subMenu li:hover .menuDeroulant li {
     background: none;
 }
 
@@ -172,50 +173,52 @@ header li:hover .subMenu a {
 
 @media only screen and (max-width: 390px) {
     .cardProfil {
-      padding: 1em;
+        padding: 1em;
     }
-    
+
     .titreProfil {
-      font-size: 2.5em;
+        font-size: 2.5em;
     }
-    
+
     .textProfil {
-      font-size: 1.2em;
-      margin: 1em;
+        font-size: 1.2em;
+        margin: 1em;
     }
-    
+
     .cardProfil .button a {
-      font-size: 1.3em;
-      padding: 0.5em 0.7em;
-      margin: 1em 0 0.5em;
+        font-size: 1.3em;
+        padding: 0.5em 0.7em;
+        margin: 1em 0 0.5em;
     }
+
     .menu {
         display: none;
-      }
-  }
+    }
+}
 
-  @media only screen and (max-width: 980px) {
+@media only screen and (max-width: 980px) {
     .cardProfil {
-      padding: 1em;
+        padding: 1em;
     }
-    
+
     .titreProfil {
-      font-size: 2.5em;
+        font-size: 2.5em;
     }
-    
+
     .textProfil {
-      font-size: 1.2em;
-      margin: 1em;
+        font-size: 1.2em;
+        margin: 1em;
     }
-    
+
     .cardProfil .button a {
-      font-size: 1.3em;
-      padding: 0.5em 0.7em;
-      margin: 1em 0 0.5em;
+        font-size: 1.3em;
+        padding: 0.5em 0.7em;
+        margin: 1em 0 0.5em;
     }
+
     .menu {
         display: none;
-      }
-  }
+    }
+}
 
-  /*(FIN) MEDIAQUERIES RESPONSIVE POUR TEL */
+/*(FIN) MEDIAQUERIES RESPONSIVE POUR TEL */
