@@ -8,6 +8,7 @@
 body{
     background-image:url(images/wallpaperflare.com_wallpaper.jpg);
     margin-top: 3em;
+    font-family: 'Poppins', sans-serif;
 }
 
 header{
@@ -123,3 +124,56 @@ header li:hover .subMenu a {
 
 
 /*(FIN) NAVIGATION DE LA PAGE */
+/*(DEBUT) MEDIAQUERIES RESPONSIVE POUR TEL/TABLETTE*/
+
+@media only screen and (max-width: 390px) {
+    .cardProfil {
+        padding: 1em;
+    }
+
+    .titreProfil {
+        font-size: 2.5em;
+    }
+
+    .textProfil {
+        font-size: 1.2em;
+        margin: 1em;
+    }
+
+    .cardProfil .button a {
+        font-size: 1.3em;
+        padding: 0.5em 0.7em;
+        margin: 1em 0 0.5em;
+    }
+
+    .menu {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    .cardProfil {
+        padding: 1em;
+    }
+
+    .titreProfil {
+        font-size: 2.5em;
+    }
+
+    .textProfil {
+        font-size: 1.2em;
+        margin: 1em;
+    }
+
+    .cardProfil .button a {
+        font-size: 1.3em;
+        padding: 0.5em 0.7em;
+        margin: 1em 0 0.5em;
+    }
+
+    .menu {
+        display: none;
+    }
+}
+
+/*(FIN) MEDIAQUERIES RESPONSIVE POUR TEL/TABLETTE*/

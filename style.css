@@ -137,8 +137,6 @@
     margin-top: 20em;
 }
 
-
-
 header li:hover .subMenu {
     display: block;
     margin: 1em;
@@ -169,7 +167,7 @@ header li:hover .subMenu a {
 
 /*(FIN) NAVIGATION DE LA PAGE */
 
-/*(DEBUT) MEDIAQUERIES RESPONSIVE POUR TEL */
+/*(DEBUT) MEDIAQUERIES RESPONSIVE POUR TEL/TABLETTE*/
 
 @media only screen and (max-width: 390px) {
     .cardProfil {
@@ -221,4 +219,4 @@ header li:hover .subMenu a {
     }
 }
 
-/*(FIN) MEDIAQUERIES RESPONSIVE POUR TEL */
+/*(FIN) MEDIAQUERIES RESPONSIVE POUR TEL/TABLETTE*/
