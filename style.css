@@ -18,8 +18,10 @@
 
 .cardProfil {
     width: 90%;
-    max-height: 70%;
+    max-height: 90%;
     max-width: 35em;
+    min-height: 500px;
+    min-width: 500px;
     padding: 2em;
     text-align: center;
     border: 0.5px solid rgba(255, 255, 255, 0.3);
@@ -89,7 +91,10 @@
     margin: 2em 0 0.7em;
 
 }
-
+.button {
+    display: flex;
+    justify-content: center;
+}
 
 /*(DEBUT) NAVIGATION DE LA PAGE */
 
