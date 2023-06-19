@@ -11,9 +11,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-header{
-    display: block;
-}
+
 
 .container {
     display: flex;
@@ -49,7 +47,7 @@ header{
 
 /*(DEBUT) NAVIGATION DE LA PAGE */
 
-.header {
+.navPage {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -90,17 +88,17 @@ header{
     top: 0;
     left: 0;
     height: 100vh;
-    margin-top: 20em;
+    margin:2em;
 }
 
 
 
-header li:hover .subMenu {
+.navPage li:hover .subMenu {
     display: block;
     margin: 1em;
 }
 
-header li:hover .subMenu a {
+.navPage li:hover .subMenu a {
     display: flex;
     justify-content: center;
     border: 1px solid #812151;
