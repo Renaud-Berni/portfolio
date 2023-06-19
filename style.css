@@ -204,15 +204,13 @@
         top: 0;
         left: 0;
         z-index: 1;
-        margin-bottom: 2em;
+        margin-bottom: 4em;
 
 
     }
 
-    .subMenu a {
-        background-color: #812151;
-
-
+    .menuDeroulant{
+        margin-bottom: 2em;
     }
 }
 
@@ -247,15 +245,17 @@
     }
 
     .navPage {
-        position: block;
+        position: absolute;
+        top: 0;
+        left: 0;
         z-index: 1;
-
+        margin-bottom: 4em;
     }
 
-    .subMenu a {
-        background-color: #812151;
+    .menuDeroulant{
+        margin-bottom: 2em;
+        z-index: 1;
     }
-
 }
 
 /*(FIN) MEDIAQUERIES RESPONSIVE POUR TEL/TABLETTE*/

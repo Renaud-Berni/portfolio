@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url(images/wallpaperflare.com_wallpaper.jpg);
+    background-image: url(../images/wallpaperflare.com_wallpaper.jpg);
     margin-top: 3em;
     font-family: 'Poppins', sans-serif;
 }
@@ -115,7 +115,6 @@ body {
 
 
 /*(FIN) NAVIGATION DE LA PAGE */
-/*(DEBUT) MEDIAQUERIES RESPONSIVE POUR TEL/TABLETTE*/
 
 /*(DEBUT) MEDIAQUERIES RESPONSIVE POUR TEL/TABLETTE*/
 
@@ -150,15 +149,13 @@ body {
         top: 0;
         left: 0;
         z-index: 1;
-        margin-bottom: 2em;
+        margin-bottom: 4em;
 
 
     }
 
-    .subMenu a {
-        background-color: #812151;
-
-
+    .menuDeroulant{
+        margin-bottom: 2em;
     }
 }
 
@@ -182,13 +179,18 @@ body {
     }
 
     .navPage {
-        position: block;
+        position: absolute;
+        top: 0;
+        left: 0;
         z-index: 1;
+        margin-bottom: 4em;
+
 
     }
 
-    .subMenu a {
-        background-color: #812151;
+    .menuDeroulant{
+        margin-bottom: 2em;
+        z-index: 1;
     }
 
 }
