@@ -47,12 +47,8 @@ body{
 
 /*(DEBUT) NAVIGATION DE LA PAGE */
 
-.navPage {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    width: 100%;
-    height: 100vh;
+.header {
+  
 }
 
 .menu {}
@@ -72,13 +68,14 @@ body{
     font-weight: 600;
 
 }
+
 .menu .menuDeroulant:hover {
     transition: 0.5s;
     background-color: #812151;
     color: aliceblue;
 }
 
-.subMenu li:hover a{
+.subMenu ul:hover a {
     transition: 0.5s;
     background-color: #812151;
 }
@@ -88,17 +85,15 @@ body{
     top: 0;
     left: 0;
     height: 100vh;
-    margin:2em;
+    margin: 2em;
 }
 
-
-
-.navPage li:hover .subMenu {
+.navPage ul:hover .subMenu {
     display: block;
     margin: 1em;
 }
 
-.navPage li:hover .subMenu a {
+.navPage ul:hover .subMenu a {
     display: flex;
     justify-content: center;
     border: 1px solid #812151;
@@ -110,7 +105,7 @@ body{
     text-align: center;
 }
 
-.subMenu li:hover .menuDeroulant li{
+.subMenu ul:hover .menuDeroulant li {
     background: none;
 }
 
@@ -124,7 +119,7 @@ body{
 /*(FIN) NAVIGATION DE LA PAGE */
 /*(DEBUT) MEDIAQUERIES RESPONSIVE POUR TEL/TABLETTE*/
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 420px) {
     .cardProfil {
         padding: 1em;
     }
@@ -145,7 +140,35 @@ body{
     }
 
     .menu {
-        display: none;
+        
+    }
+
+    legend {
+        font-size: 3em;
+    }
+
+    label {
+        font-size: 0.7em;
+    }
+
+    .container {
+        position: relative;
+
+    }
+
+    .navPage {
+        position: absolute;
+        top: 0;
+        z-index: 1;
+        height: 100vh;
+        width: 100%;
+
+    }
+
+    .subMenu a {
+        background-color: #812151;
+
+
     }
 }
 
@@ -167,10 +190,29 @@ body{
         font-size: 1.3em;
         padding: 0.5em 0.7em;
         margin: 1em 0 0.5em;
+
     }
 
-    .menu {
-        display: none;
+    .menu {}
+
+    .container {
+        position: relative;
+
+    }
+
+    .navPage {
+        position: absolute;
+        top: 0;
+        z-index: 1;
+        height: 100vh;
+        width: 100%;
+
+    }
+
+    .subMenu a {
+        background-color: #812151;
+
+
     }
 }
 

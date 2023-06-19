@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image:url(../images/wallpaperflare.com_wallpaper.jpg);
+    background-image: url(../images/wallpaperflare.com_wallpaper.jpg);
     font-family: 'Poppins', sans-serif;
 }
 
@@ -44,7 +44,7 @@ legend {
 }
 
 .champsaRemplir {
-    color:aliceblue;
+    color: aliceblue;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -57,19 +57,19 @@ legend {
     margin: 1.5em;
 }
 
-input:placeholder-shown{
+input:placeholder-shown {
     text-align: center;
 }
 
-.champsPassword{
+.champsPassword {
     height: 3.2em;
     width: 15em;
     border-radius: 5px;
     border: none;
-    
+
 }
 
-.champsUser{
+.champsUser {
     height: 3.2em;
     width: 15em;
     border-radius: 5px;
@@ -100,13 +100,14 @@ input:placeholder-shown{
     padding: 0.7em 0.7em;
     margin: 2em 0 0.7em;
 }
-.login>button:hover{
+
+.login>button:hover {
     transition: 0.5s;
     background-color: rgb(240, 90, 195);
     color: aliceblue;
 }
 
-.youcanToo{
+.youcanToo {
     color: aliceblue;
     font-size: 1em;
     font-weight: 600;
@@ -117,13 +118,13 @@ input:placeholder-shown{
 }
 
 
-.links{
+.links {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
 }
 
-.links img{
+.links img {
     width: 3em;
     height: 3em;
     border-radius: 50%;
@@ -141,15 +142,16 @@ input:placeholder-shown{
     width: 100%;
     height: 3.4em;
     width: 3.4em;
-    
-  }
+
+}
+
 .footer {
     flex-shrink: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-shadow: 1px black;
-  color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 1px black;
+    color: antiquewhite;
     text-shadow: 1px black;
     color: antiquewhite;
 
@@ -160,9 +162,7 @@ input:placeholder-shown{
 
 /*(DEBUT) NAVIGATION DE LA PAGE */
 
-.header {
-  
-}
+.header {}
 
 .menu {}
 
@@ -188,7 +188,7 @@ input:placeholder-shown{
     color: aliceblue;
 }
 
-.subMenu li:hover a {
+.subMenu ul:hover a {
     transition: 0.5s;
     background-color: #812151;
 }
@@ -201,12 +201,12 @@ input:placeholder-shown{
     margin: 2em;
 }
 
-.navPage li:hover .subMenu {
+.navPage ul:hover .subMenu {
     display: block;
     margin: 1em;
 }
 
-.navPage li:hover .subMenu a {
+.navPage ul:hover .subMenu a {
     display: flex;
     justify-content: center;
     border: 1px solid #812151;
@@ -218,7 +218,7 @@ input:placeholder-shown{
     text-align: center;
 }
 
-.subMenu li:hover .menuDeroulant li {
+.subMenu ul:hover .menuDeroulant li {
     background: none;
 }
 
@@ -233,7 +233,7 @@ input:placeholder-shown{
 
 /*(DEBUT) MEDIAQUERIES RESPONSIVE POUR TEL/TABLETTE*/
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 420px) {
     .cardProfil {
         padding: 1em;
     }
@@ -254,7 +254,34 @@ input:placeholder-shown{
     }
 
     .menu {
-        display: none;
+        
+    }
+
+    legend {
+        font-size: 3em;
+    }
+
+    label {
+        font-size: 0.7em;
+    }
+    .container {
+        position: relative;
+
+    }
+
+    .navPage {
+        position: absolute;
+        top: 0;
+        z-index: 1;
+        height: 100vh;
+        width: 100%;
+
+    }
+
+    .subMenu a {
+        background-color: #812151;
+
+
     }
 }
 
@@ -276,10 +303,29 @@ input:placeholder-shown{
         font-size: 1.3em;
         padding: 0.5em 0.7em;
         margin: 1em 0 0.5em;
+
     }
 
-    .menu {
-        display: none;
+    .menu {}
+
+    .container {
+        position: relative;
+
+    }
+
+    .navPage {
+        position: absolute;
+        top: 0;
+        z-index: 1;
+        height:100vh;
+        width: 100%;
+
+    }
+
+    .subMenu a {
+        background-color: #812151;
+
+
     }
 }
 
