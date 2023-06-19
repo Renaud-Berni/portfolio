@@ -5,8 +5,8 @@
     overflow: hidden;
 }
 
-body{
-    background-image:url(images/wallpaperflare.com_wallpaper.jpg);
+body {
+    background-image: url(images/wallpaperflare.com_wallpaper.jpg);
     margin-top: 3em;
     font-family: 'Poppins', sans-serif;
 }
@@ -35,21 +35,19 @@ body{
     margin-bottom: 5em;
     width: 100%;
 }
- 
-.header-content h2{
- display: flex;
- justify-content: center;
- align-items: center;
-    
+
+.header-content h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 
 
 /*(DEBUT) NAVIGATION DE LA PAGE */
 
-.header {
-  
-}
+.header {}
 
 .menu {}
 
@@ -119,11 +117,9 @@ body{
 /*(FIN) NAVIGATION DE LA PAGE */
 /*(DEBUT) MEDIAQUERIES RESPONSIVE POUR TEL/TABLETTE*/
 
-@media only screen and (max-width: 420px) {
-    .cardProfil {
-        padding: 1em;
-    }
+/*(DEBUT) MEDIAQUERIES RESPONSIVE POUR TEL/TABLETTE*/
 
+@media only screen and (max-width: 420px) {
     .titreProfil {
         font-size: 2.5em;
     }
@@ -133,15 +129,7 @@ body{
         margin: 1em;
     }
 
-    .cardProfil .button a {
-        font-size: 1.3em;
-        padding: 0.5em 0.7em;
-        margin: 1em 0 0.5em;
-    }
-
-    .menu {
-        
-    }
+    .menu {}
 
     legend {
         font-size: 3em;
@@ -152,16 +140,18 @@ body{
     }
 
     .container {
-        position: relative;
+        position: flex;
+        overflow: auto;
 
     }
 
     .navPage {
         position: absolute;
         top: 0;
+        left: 0;
         z-index: 1;
-        height: 100vh;
-        width: 100%;
+        margin-bottom: 2em;
+
 
     }
 
@@ -172,11 +162,8 @@ body{
     }
 }
 
-@media only screen and (max-width: 980px) {
-    .cardProfil {
-        padding: 1em;
-    }
 
+@media only screen and (max-width: 980px) {
     .titreProfil {
         font-size: 2.5em;
     }
@@ -186,34 +173,24 @@ body{
         margin: 1em;
     }
 
-    .cardProfil .button a {
-        font-size: 1.3em;
-        padding: 0.5em 0.7em;
-        margin: 1em 0 0.5em;
-
-    }
-
     .menu {}
 
     .container {
-        position: relative;
+        position: flex;
+        overflow: auto;
 
     }
 
     .navPage {
-        position: absolute;
-        top: 0;
+        position: block;
         z-index: 1;
-        height: 100vh;
-        width: 100%;
 
     }
 
     .subMenu a {
         background-color: #812151;
-
-
     }
+
 }
 
 /*(FIN) MEDIAQUERIES RESPONSIVE POUR TEL/TABLETTE*/

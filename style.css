@@ -18,6 +18,7 @@
 
 .cardProfil {
     width: 90%;
+    max-height: 70%;
     max-width: 35em;
     padding: 2em;
     text-align: center;
@@ -92,9 +93,7 @@
 
 /*(DEBUT) NAVIGATION DE LA PAGE */
 
-.header {
-  
-}
+.header {}
 
 .menu {}
 
@@ -129,7 +128,6 @@
     position: fixed;
     top: 0;
     left: 0;
-    height: 100vh;
     margin: 2em;
 }
 
@@ -185,9 +183,7 @@
         margin: 1em 0 0.5em;
     }
 
-    .menu {
-        
-    }
+    .menu {}
 
     legend {
         font-size: 3em;
@@ -196,17 +192,20 @@
     label {
         font-size: 0.7em;
     }
+
     .container {
-        position: relative;
+        position: flex;
+        overflow: auto;
 
     }
 
     .navPage {
         position: absolute;
         top: 0;
+        left: 0;
         z-index: 1;
-        height: 100vh;
-        width: 100%;
+        margin-bottom: 2em;
+
 
     }
 
@@ -242,23 +241,21 @@
     .menu {}
 
     .container {
-        position: relative;
+        position: flex;
+        overflow: auto;
 
     }
 
     .navPage {
-        position: absolute;
-        top: 0;
+        position: block;
         z-index: 1;
-        height: 100vh;
-        width: 100%;
 
     }
 
     .subMenu a {
         background-color: #812151;
     }
-    
+
 }
 
 /*(FIN) MEDIAQUERIES RESPONSIVE POUR TEL/TABLETTE*/
