@@ -1,0 +1,51 @@
+<%- include ('partials/nav') %>
+<link rel="stylesheet" href="/css/styleConnexion.css">
+
+
+    <div class="container__form" data-tilt>
+        <form>
+            <legend>Login</legend>
+            <div class="champsaRemplir">
+                <!--NOM UTILISATEUR-->
+            
+                    <label for="username">Nom utilisateur</label>
+                    <input class="champsUser" type="text" id="username" name="username" placeholder="entrez votre nom d'utilisateur"
+                        required;>
+               
+                <!--MOT DE PASSE-->
+               
+                    <label for="password">Mot de passe</label>
+                    <input class="champsPassword" type="password" id="password" name="password" placeholder="entrez votre mot de passe"
+                        required;>
+                
+            </div>
+            <!--MDP OUBLIE?-->
+            <a class="forgetPassword" href=""> <span>Mot de passe oublié ? </span> </a>
+            <!--BOUTON LOGIN-->
+            <span class="login"><button>SE CONNECTER</button></span>
+            <!--Vous pouvez aussi utiliser-->
+            <span class="youcanToo">Vous pouvez aussi utiliser</span>
+            <!--LOGO CONNEXION GOOGLE/FB-->
+
+            <div class="links">
+             <a href="https://fr-fr.facebook.com/"><img class="logoLogin" src="../images/fb.png"></a>
+
+               <a href="https://accounts.google.com/v3/signin/identifier?dsh=S-16312372%3A1686853235536116&ffgf=1&hl=fr&ifkv=Af_xneEwmLGLGgSyw1VWgXLOYU1WTWnnMcpXeP7Bxoyt0NxIXxKuwnorHnp4nTa_q6mhJ6wHCtzrIQ&flowName=GlifWebSignIn&flowEntry=ServiceLogin"><img
+                class="logoLogin" src="../images/twi.png"></a>
+            </div>
+            
+            
+            
+            
+            
+        </form>
+    </div>
+    
+   
+</div>
+
+<script src="js/raw.githubusercontent.com_micku7zu_vanilla-tilt.js_master_dist_vanilla-tilt.js"></script>
+<footer class="footer">« copyright – tous droits réservés - par Renaud Berni»</footer>
+
+</body>
+</html>
